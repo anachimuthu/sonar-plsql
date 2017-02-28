@@ -367,6 +367,7 @@ public enum PlSqlKeyword implements TokenType {
     CASCADE("cascade"),
     ADD("add"),
     MODIFY("modify"),
+    TABLESPACE("tablespace"),
 ;
 
     private final String value;
